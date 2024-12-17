@@ -41,6 +41,15 @@ const MyStudy = () => {
             </Box>
         </SwiperSlide>
         <SwiperSlide>
+            <Box href='https://publisher-hana.github.io/vue-vet-app/'>
+              <span className='img'><img src={vet} /></span>
+              <dl>
+                <dt>수의사 커뮤니티 베터빌</dt>
+                <dd>Vue3.js</dd>
+              </dl>
+            </Box>
+        </SwiperSlide>
+        <SwiperSlide>
             <Box href='https://lhn1208.github.io/vue_port/#/'>
             <span className='img'><img src={vue} /></span>
               <dl>

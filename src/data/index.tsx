@@ -50,7 +50,6 @@ const portData = [
     //     alt: "선베스트 이미지"
     // },
     
-
     {
       title:"매물사이트 퍼블리싱",
       link:"//lhn1208.github.io/vue_realhome",
