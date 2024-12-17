@@ -1,0 +1,5 @@
+<script>
+    const queryParams = window.location.search;
+    const redirectTo = queryParams ? `/react_port${queryParams}` : '/react_port';
+    window.location.replace(redirectTo);
+  </script>
