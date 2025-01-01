@@ -8,7 +8,6 @@ import instaIco from '../images/ico_insta.png';
 import vueIco from '../images/ico_vue.png';
 import reactIco from '../images/logo.svg';
 import AboutSection from "./AboutSection";
-import MyStudy from "./MyStudy";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,6 +48,7 @@ export const About = () => {
           markers:false,
         });
       });
+
 
       //주요스킬
       const ani1 = gsap.timeline();
@@ -208,9 +208,6 @@ export const About = () => {
                   <div className="split">NAME: 이하나</div>
                   <div className="split">Email: lhn1208@naver.com</div>
                 </MyTexts>
-            </AboutSection>
-            <AboutSection className="section5" secTitle="MY STUDY">
-                <MyStudy />
             </AboutSection>
             <SnsLinks className="reveal reveal_LTR"> 
                 <a href="//www.instagram.com/hanayastagram/?hl=ko" target="_blank" rel="noreferrer"><img src={instaIco} /></a>

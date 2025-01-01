@@ -27,7 +27,7 @@ interface ColorProps {
 export const SecTittle = styled.h2<ColorProps>`
     ${size.ft38}
     ${weight.bold};
-    padding:var(--content-pd) 20px;
+    margin:var(--content-pd) 20px;
     color: ${props => (props.white ? '#fff' : '')};
     text-transform:uppercase;
     @media (max-width: ${MediaWidth.tablet}) {
@@ -76,32 +76,105 @@ export const HeaderStyle = styled.header`
             height:100%;
         }
     }
-
+   @media screen and (max-width: ${MediaWidth.tablet}) {
+    .inner nav{
+      display:none;
+    }
+  }
 `
 export const HeaderMenu = styled.ul`
-    display: flex;
-    gap:20px;
-    a{
-        ${size.ft18}
-        ${weight.bold};
-        text-transform:uppercase;
-        position:relative;
-        &:before{
-            content:"";
-            position: absolute;
-            bottom:0;
-            width:0;
-            height:2px;
-            background:var(--primary-color);
-            ${Transition.sec2}
-        }
-        &:hover:before{
-            width:100%;
-        }
-        @media (max-width: ${MediaWidth.mobile}) {
-            ${size.ft16}
-        }
-    }
+  display: flex;
+  gap:20px;
+  a{
+      ${size.ft18}
+      ${weight.bold};
+      text-transform:uppercase;
+      position:relative;
+      &:before{
+          content:"";
+          position: absolute;
+          bottom:0;
+          width:0;
+          height:2px;
+          background:var(--primary-color);
+          ${Transition.sec2}
+      }
+      &:hover:before{
+          width:100%;
+      }
+      @media (max-width: ${MediaWidth.mobile}) {
+          ${size.ft16}
+      }
+  }
+ 
+`
+export const HeaderGnb = styled.button`
+  display:none;
+  :before,:after, .bar{
+    content:"";
+    display:block;
+    width:30px;
+    height:2px;
+    background:#000;
+    margin-bottom:6px;
+  }
+  @media (max-width: ${MediaWidth.tablet}) {
+     display:block;
+  }
+`
+export const MobileMenu = styled.div`
+ position:fixed; 
+ width:40%;
+ height:100%;
+ top:0;
+ right:0;
+ background:#fff;
+ padding-top:300px;
+ z-index:110;
+ transform:translateX(100%);
+ transition:all, .3s ease-in-out;
+ &.on{
+  transform:translateX(0);
+ }
+ nav ul{
+  align-items:center;
+  flex-direction:column;
+  li{
+    margin:16px 0;
+  }
+ }
+`
+export const MenuClose = styled.button`
+  position:absolute;
+  top:80px;
+  right:10px;
+  :before,:after{
+    display:block;
+    content:"";
+    width:24px;
+    height:2px;
+    background:#000;
+  }
+  :before{
+    transform:rotate(45deg);
+  }
+  :after{
+    margin-top:-2px;
+    transform:rotate(135deg);
+  }
+`
+export const Cover = styled.div`
+   position:fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   background:rgba(0,0,0,.7);
+   z-index:100;
+   display:none;
+   &.on{
+    display:block;
+   }
 `
 export const BtntoTopStyle = styled.button`
     position:fixed;

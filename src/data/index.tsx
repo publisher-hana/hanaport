@@ -54,8 +54,8 @@ const portData = [
       title:"매물사이트 퍼블리싱",
       link:"//lhn1208.github.io/vue_realhome",
       device:"pc",  
-      skill:"VUE3 & HTML5 & CSS3",
-      date: "2022.01~2022.03",
+      skill:"VUE.js & HTML5 & CSS3",
+      date: "",
       pc_img: require("../images/work/pc_house.png"),
       alt: "매물사이트 PC 이미지"
   },
@@ -63,8 +63,8 @@ const portData = [
       title:"매물사이트 퍼블리싱",
       link:"//lhn1208.github.io/vue_realhome_mb/",
       device:"mobile",
-      skill:"VUE3 & HTML5 & CSS3",
-      date: "2022.01~2022.03",
+      skill:"VUE.js & HTML5 & CSS3",
+      date: "",
       only_mb_img: require("../images/work/mb_house.png"),
       alt: "매물사이트 모바일 이미지"
   },
