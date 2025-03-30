@@ -164,6 +164,7 @@ export const SkillItem =styled.li`
       width:100%;
       height:auto;
       padding-bottom:24px;
+      cursor:auto;
       &>div{
           width:160px;
           height:160px;
@@ -172,6 +173,7 @@ export const SkillItem =styled.li`
       &:hover{
           .front{
               transform: rotateY(0deg); 
+              opacity:1;
           }
           .back{
               display:none;
