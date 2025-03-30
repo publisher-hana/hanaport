@@ -7,6 +7,7 @@ import SplitType from "split-type";
 import instaIco from '../images/ico_insta.png';
 import vueIco from '../images/ico_vue.png';
 import reactIco from '../images/logo.svg';
+import profile from '../images/profile.jpg';
 import AboutSection from "./AboutSection";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -205,11 +206,14 @@ export const About = () => {
             </AboutSection>
             <AboutSection className="section4" secTitle="MY INFO">
                 <MyTexts>
+                  <div className="img">
+                    <img src={profile} alt="my profile" data-aos="zoom-out-right" />
+                  </div>
                   <div className="split">NAME: 이하나</div>
                   <div className="split">Email: lhn1208@naver.com</div>
                 </MyTexts>
             </AboutSection>
-            <SnsLinks className="reveal reveal_LTR"> 
+            <SnsLinks className="reveal reveal_LTR" data-aos="fade-left"> 
                 <a href="//www.instagram.com/hanayastagram/?hl=ko" target="_blank" rel="noreferrer"><img src={instaIco} /></a>
                 <a href="//hanaya01.tistory.com/" target="_blank" className="tstory" rel="noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 459 459">

@@ -25,7 +25,6 @@ export const MyStudyUl = styled.ul`
   li{
     margin-top:80px;
     width:100%;
-    opacity: 0;
     img{
       width:100%;
       height:270px;

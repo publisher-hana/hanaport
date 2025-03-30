@@ -8,6 +8,9 @@ import { Footer } from "Footer";
 import { About } from "About";
 import { useEffect } from "react";
 import Study from "Study";
+import AOS from 'aos';
+import "aos/dist/aos.css"
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -19,7 +22,10 @@ function ScrollToTop() {
   return null;
 }
 function App() {
-
+  useEffect(()=>{
+    AOS.init()
+    AOS.refresh()
+  },[])
   return (
    <>
      {/* <BrowserRouter basename="/react_port"> */}

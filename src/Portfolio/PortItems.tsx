@@ -22,7 +22,7 @@ export default function PortItems({ activeFilter }: { activeFilter: string }) {
         <PortItemsStyle className="fadeInUp animated s1_8">
             {/* 필터링된 데이터를 사용하여 항목 렌더링 */}
             {filteredData.map((item, index) => (
-                <li key={index}>
+                <li key={index} data-aos="fade-up">
                     <a href={item.link} target="_blank" rel="noreferrer">
                       <PortFigure className={item.only_mb_img ? 'only_mb_img' : ''}>
                           {item.pc_img && <img src={item.pc_img} alt={item.alt} />}

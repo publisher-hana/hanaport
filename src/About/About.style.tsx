@@ -16,6 +16,7 @@ export const AboutWrap = styled.div`
     padding:0;
     background:#000;
     padding-bottom:4rem;
+    overflow-x:hidden;
     .section_wrap{
         position:relative;
     }
@@ -186,6 +187,21 @@ export const MyTexts = styled.div`
   >div{
     margin-top:2rem;
     font-size:4rem;
+  }
+  .img{ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    border:2px solid var(--primary-color);
+  }
+  .img img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover
   }
   @media screen and (max-width: ${MediaWidth.pc}) {
      >div{
