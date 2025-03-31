@@ -56,7 +56,7 @@ export const About = () => {
       ani1.fromTo(
         ".major_skills li",  
         { 
-          y: -100,           
+          y: -200,           
           autoAlpha: 0       
         },
         { 
@@ -70,7 +70,7 @@ export const About = () => {
         animation: ani1,
         trigger:".major_skills",
         start: "top top",
-        end: "+=1000",
+        end: "+=300",
         toggleActions: "play none reverse none",
         scrub:true,
         anticipatePin: 1,
