@@ -115,7 +115,9 @@ export const SkillItem =styled.li`
   padding-bottom: var(--content-pd); 
   cursor: pointer; 
   position: relative;
-  font-size:1.4rem;
+  span{
+    font-size:1.8rem;
+  }
   .front{
     transform: rotateY(0deg); 
   }

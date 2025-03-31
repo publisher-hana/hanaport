@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import { Cover, HeaderGnb, HeaderMenu, HeaderStyle, MenuClose, MobileMenu } from "styles/common.style"
 import logoImg from '../images/logo_myport.png';
 
@@ -33,10 +33,10 @@ export const Header = () => {
               <h1 className="logo"><Link to="/"><img src={logoImg} alt="my portfolio 로고" /></Link></h1>
               <nav>
                   <HeaderMenu>
-                      <li><Link to="/">Home</Link></li>
-                      <li><Link to="/portfolio">Portfolio</Link></li>
-                      <li><Link to="/about">About</Link></li>
-                      <li><Link to="/study">My Study</Link></li>
+                      <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to="/">Home</NavLink></li>
+                      <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to="/portfolio">Portfolio</NavLink></li>
+                      <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to="/about">About</NavLink></li>
+                      <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to="/study">My Study</NavLink></li>
                   </HeaderMenu>
               </nav>
               <HeaderGnb onClick={toggleMenu}>
@@ -51,10 +51,10 @@ export const Header = () => {
               </MenuClose>
               <nav>
                 <HeaderMenu>
-                    <li><Link to="/" onClick={closeMenu}>Home</Link></li>
-                    <li><Link to="/portfolio" onClick={closeMenu}>Portfolio</Link></li>
-                    <li><Link to="/about" onClick={closeMenu}>About</Link></li>
-                    <li><Link to="/study" onClick={closeMenu}>My Study</Link></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to="/" onClick={closeMenu}>Home</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to="/portfolio" onClick={closeMenu}>Portfolio</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to="/about" onClick={closeMenu}>About</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'active' : ''} to="/study" onClick={closeMenu}>My Study</NavLink></li>
                 </HeaderMenu>
               </nav>
           </MobileMenu>

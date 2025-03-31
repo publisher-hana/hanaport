@@ -46,6 +46,9 @@ export const HeaderStyle = styled.header`
     &.none{
         display:none;
     }
+    nav a.active{
+      color:var(--primary-color);
+    }
     .inner{
         ${contWidth.default}
         ${flexOpt.scbAlignCenter}
@@ -141,6 +144,9 @@ export const MobileMenu = styled.div`
   flex-direction:column;
   li{
     margin:16px 0;
+  }
+  a.active{
+    color:var(--primary-color);
   }
  }
 `

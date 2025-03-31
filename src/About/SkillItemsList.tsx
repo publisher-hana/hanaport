@@ -9,7 +9,6 @@ export const SkillItemList = ({skill,desc}:Props) => {
         <SkillItem>
             <div className="front"><span>{skill}</span></div>
             <div className="back"><span>{desc}</span></div>
-           
         </SkillItem>
     )
 }

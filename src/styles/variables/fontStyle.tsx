@@ -8,46 +8,46 @@ export const FontFamily = {
 export const FONTSTYLE = {
     size:{
         ft11:css`
-            font-size:11px;
+            font-size:1.1rem;
         `,
         ft12:css`
-            font-size:12px;
+            font-size:1.2rem;
         `,
         ft13:css`
-            font-size:13px;
+            font-size:1.3rem;
         `,
         ft14:css`
-            font-size:14px;
+            font-size:1.4rem;
         `,
         ft16:css`
-            font-size:16px;
+            font-size:1.6rem;
         `,
         ft17:css`
-            font-size:17px;
+            font-size:1.7rem;
         `,
         ft18:css`
-            font-size:18px;
+            font-size:1.8rem;
         `,
         ft20:css`
-            font-size:20px;
+            font-size:2rem;
         `,
         ft22:css`
-            font-size:22px;
+            font-size:2.2rem;
         `,
         ft24:css`
-            font-size:24px;
+            font-size:2.4rem;
         `,
         ft26:css`
-            font-size:26px;
+            font-size:2.6rem;
         `,
         ft28:css`
-            font-size:28px;
+            font-size:2.8rem;
         `,
         ft30:css`
-            font-size:30px;
+            font-size:3rem;
         `,
         ft38:css`
-            font-size:38px;
+            font-size:3.8rem;
         `
     },
     weight:{

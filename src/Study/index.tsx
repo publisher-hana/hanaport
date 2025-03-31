@@ -15,7 +15,7 @@ const Study = ()  =>{
           <MyStudyUl className="study-list">
             <li data-aos="flip-left">
               <a href='https://publisher-hana.github.io/ciyatrip/' target='_blank' rel="noopener noreferrer">
-                <span className='img'><img src={ciya} alt='' /></span>
+                <figure className='img'><img src={ciya} alt='' /></figure>
                 <dl>
                   <dt>Trip WebSite [Responsive]</dt>
                   <dd>React & Tailwind</dd>
@@ -24,7 +24,7 @@ const Study = ()  =>{
             </li>
             <li data-aos="flip-left">
               <a href='https://publisher-hana.github.io/vue-fast-eat/' target='_blank' rel="noopener noreferrer">
-                <span className='img'><img src={fasatEat} alt='' /></span>
+                <figure className='img'><img src={fasatEat} alt='' /></figure>
                 <dl>
                   <dt>Fast Eat</dt>
                   <dd>Vue3.js & Sass</dd>
@@ -33,7 +33,7 @@ const Study = ()  =>{
             </li>
             <li data-aos="flip-left">
               <a href='https://publisher-hana.github.io/vue-vet-app/' target='_blank' rel="noopener noreferrer">
-                <span className='img'><img src={vet} alt='' /></span>
+                <figure className='img'><img src={vet} alt='' /></figure>
                 <dl>
                   <dt>수의사 커뮤니티 베터빌</dt>
                   <dd>Vue3.js</dd>
@@ -42,7 +42,7 @@ const Study = ()  =>{
             </li>
             <li data-aos="flip-left">
               <a href='https://lhn1208.github.io/vue_port/#/' target='_blank' rel="noopener noreferrer">
-              <span className='img'><img src={vue} alt='' /></span>
+              <figure className='img'><img src={vue} alt='' /></figure>
                 <dl>
                   <dt>Vue포트폴리오</dt>
                   <dd>Vue2.js</dd>
@@ -51,7 +51,7 @@ const Study = ()  =>{
             </li>
             <li data-aos="flip-left">
               <a href='https://lhn1208.github.io/myport/demo/study/gsap/gsap01.html' target='_blank' rel="noopener noreferrer">
-              <span className='img'><img src={gsapImg} alt='' /></span>
+              <figure className='img'><img src={gsapImg} alt='' /></figure>
                 <dl>
                   <dt>Gsap-애니메이션 라이브러리</dt>
                 </dl>

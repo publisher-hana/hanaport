@@ -15,7 +15,10 @@ export const MyStudy = styled.div`
     margin-bottom:100px;
   }
   @media (max-width: ${MediaWidth.pc}) {
-    padding-top:100px;
+    padding-top:60px;
+    h2{
+      margin:0;
+    }
   }
 `
 export const MyStudyUl = styled.ul`
@@ -25,19 +28,26 @@ export const MyStudyUl = styled.ul`
   li{
     margin-top:80px;
     width:100%;
-    img{
-      width:100%;
+    .img{
+      diplay:inline-block;
       height:270px;
+      img{
+        width:100%;
+        height:100%;
+      }
     }
     dl{
       margin-top:10px;
       line-height:1.2;
-      font-size:18px;
+      font-size:1.8rem;
       color:#fff;
     }
   }
   @media (max-width: ${MediaWidth.pc}) {
       grid-template-columns:repeat(2,1fr);
+      li .img{
+        height:180px;
+      }
   }
   
 `

@@ -28,7 +28,7 @@ export const TabListStyle = styled.ul`
         text-transform:uppercase;        
     }@media (max-width: ${MediaWidth.mobile}) {
         li{
-            margin:0;
+            margin:0 6px;
         }
         button{
             ${size.ft14}
@@ -77,9 +77,11 @@ export const PortFigure = styled.figure`
     height:270px;
     ${Transition.sec4}
     @media (max-width: ${MediaWidth.pc}) {
-        width:84%;
-        height:auto;
-        margin:0 auto;
+      width:84%;
+      height:auto;
+      margin:0 auto;
+      display:flex;
+      justify-content:center;
     }
     .mb_img{
         position:absolute;
@@ -126,6 +128,7 @@ export const PortInfo = styled.figcaption`
         li{
             text-transform:uppercase;
             line-height:2;
+            font-size:1.4rem;
         }
     }
 `
