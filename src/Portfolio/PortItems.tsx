@@ -36,7 +36,7 @@ export default function PortItems({ activeFilter }: { activeFilter: string }) {
                       <PortInfo>
                           <h3><span>{item.title}</span></h3>
                           <ul className="info">
-                            <li>{item.device}</li>
+                            <li className='text-upper'>{item.device}</li>
                             <li>{item.skill}</li>
                             <li>{item.date}</li>
                           </ul>

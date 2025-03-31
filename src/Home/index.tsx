@@ -46,7 +46,7 @@ export const Home = () => {
             </div>
             <ToMain>
                 <Link to="/portfolio">
-                    <span className="txt">Go to main</span>
+                    <span className="txt">Go to Main</span>
                     <span className="line1"></span><span className="line2"></span><span className="line3"></span><span className="line4"></span>
                 </Link>
                 <span className="desc">Made with React</span>

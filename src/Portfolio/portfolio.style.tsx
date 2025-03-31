@@ -126,9 +126,11 @@ export const PortInfo = styled.figcaption`
     }
     .info{
         li{
-            text-transform:uppercase;
             line-height:2;
             font-size:1.4rem;
+            &.text-upper{
+              text-transform:uppercase;
+            }
         }
     }
 `
