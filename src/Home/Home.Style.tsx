@@ -80,6 +80,14 @@ export const ToMain = styled.div`
             ${size.ft14}
         }
     }
+    .skills{
+      margin-top:20px;
+      span{
+        margin-right:10px;
+        color:#fff;
+        font-size:3.4rem
+      }
+    }
     @media screen and (max-width: ${MediaWidth.tablet}) {
         margin-left:40px;
         .txt{

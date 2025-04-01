@@ -6,6 +6,13 @@ import bankBtImg from '../images/bank_bottom.png';
 import homeImg from '../images/home1.png';
 import travelImg from '../images/travel.png';
 import { gsap } from "gsap";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaFigma } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
+import { RiNotionFill } from "react-icons/ri";
 
 export const Home = () => {
     useEffect(() => {
@@ -45,11 +52,20 @@ export const Home = () => {
                 </h1>
             </div>
             <ToMain>
-                <Link to="/portfolio">
+                <Link to="/portfolio" data-aos="fade-right">
                     <span className="txt">Go to Main</span>
                     <span className="line1"></span><span className="line2"></span><span className="line3"></span><span className="line4"></span>
                 </Link>
-                <span className="desc">Made with React</span>
+                <span className="desc" data-aos="fade-left">Made with React</span>
+                <div className="skills" data-aos="fade-up">
+                  <span><FaHtml5 /></span>
+                  <span><FaCss3Alt /></span>
+                  <span><FaReact /></span>
+                  <span><IoLogoJavascript /></span>
+                  <span><FaGitAlt  /></span>
+                  <span><FaFigma  /></span>
+                  <span><RiNotionFill  /></span>
+                </div>
             </ToMain>
             <BgImage>
                 <span className="img type1"> <img src={docImg} alt="" /></span>

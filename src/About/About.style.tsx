@@ -347,10 +347,11 @@ export const SnsLinks = styled.div`
         position:absolute;
         top:-42px; 
         left:0;
-        width:100px;
+        width:114px;
         height:14px;
+        line-height:1px;
         font-size:13px;
-        padding:10px;
+        padding:14px 10px;
         border-radius:6px;
         background-color:#fff;
         &:before{
