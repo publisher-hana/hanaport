@@ -8,6 +8,7 @@ import travelImg from '../images/travel.png';
 import { gsap } from "gsap";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
+import { FaSass } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaFigma } from "react-icons/fa";
@@ -60,6 +61,7 @@ export const Home = () => {
                 <div className="skills" data-aos="fade-up">
                   <span><FaHtml5 /></span>
                   <span><FaCss3Alt /></span>
+                  <span><FaSass /></span>
                   <span><FaReact /></span>
                   <span><IoLogoJavascript /></span>
                   <span><FaGitAlt  /></span>
