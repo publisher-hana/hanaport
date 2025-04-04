@@ -6,14 +6,10 @@ import bankBtImg from '../images/bank_bottom.png';
 import homeImg from '../images/home1.png';
 import travelImg from '../images/travel.png';
 import { gsap } from "gsap";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaSass } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaFigma } from "react-icons/fa";
-import { FaGitAlt } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaSass, FaReact, FaFigma, FaGitAlt } from "react-icons/fa";
+import { BiLogoJavascript } from "react-icons/bi";
 import { RiNotionFill } from "react-icons/ri";
+import { BiLogoTypescript } from "react-icons/bi";
 
 export const Home = () => {
     useEffect(() => {
@@ -63,7 +59,8 @@ export const Home = () => {
                   <span><FaCss3Alt /></span>
                   <span><FaSass /></span>
                   <span><FaReact /></span>
-                  <span><IoLogoJavascript /></span>
+                  <span><BiLogoJavascript  /></span>
+                  <span><BiLogoTypescript /></span>
                   <span><FaGitAlt  /></span>
                   <span><FaFigma  /></span>
                   <span><RiNotionFill  /></span>

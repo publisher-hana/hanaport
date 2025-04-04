@@ -8,6 +8,7 @@ import ImgTravel from '../images/work_travel.jpg';
 import ImgBank from  '../images/work_sc.jpg';
 import ImgKids from  '../images/work_kids.jpg';
 import ImgKoscom from  '../images/work_koscom.jpg';
+import BgCounter from  '../images/some-facts-bg.png';
 import { contWidth } from 'styles/variables/variables';
 
 export const AboutWrap = styled.div`
@@ -24,7 +25,7 @@ export const AboutWrap = styled.div`
      padding-top:10rem;
   }
   counter-reset: section-counter; 
-  section:before{
+  section::before{
     counter-increment: section-counter; 
     content:counter(section-counter, decimal-leading-zero);
     position:absolute;
@@ -153,11 +154,14 @@ export const SkillItem =styled.li`
   }
   @media screen and (max-width: ${MediaWidth.pc}) {
       width:50%;
+       padding-bottom:0;
       &>div{
-          margin:0 auto;
-          span{
-              ${size.ft16}
-          }
+        width:160px;
+        height:160px;
+        margin:0 auto;
+        span{
+            ${size.ft16}
+        }
       }
       .back{
           left:27%;
@@ -166,11 +170,8 @@ export const SkillItem =styled.li`
   @media screen and (max-width: ${MediaWidth.tablet}) {
       width:100%;
       height:auto;
-      padding-bottom:24px;
       cursor:auto;
       &>div{
-          width:160px;
-          height:160px;
           margin:0 auto 16px;
       }
       &:hover{
@@ -182,6 +183,61 @@ export const SkillItem =styled.li`
               display:none;
           }
       }
+  }
+`
+export const Bgfixed = styled.div`
+  position:relative;
+  height:60vh;
+  z-index: 0;
+  &:after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:url(${BgCounter}) no-repeat ;
+    background-size:cover;
+    background-attachment:fixed;
+    z-index:-1;
+  }
+  @media screen and (max-width: ${MediaWidth.tablet}) {
+    height:40vh;
+  }
+`
+export const CounterStyle = styled.ul`
+  max-width:var(--cont-width-wide);
+  margin:16rem auto;
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  height:100%;
+  align-items:center;
+  color:#fff;
+  text-align:center;
+  li{
+    display:flex;
+    flex-direction:column;
+    gap:4rem;
+    .ico{
+      font-size:2.8rem;
+    }
+    strong{
+      display:block;
+      font-size:6rem;
+      color:var(--primary-color);
+    }
+    .text{
+      font-size:1.8rem;
+    }
+  }
+  @media screen and (max-width: ${MediaWidth.tablet}) {
+    grid-template-columns:repeat(2, 1fr);
+    li{
+      gap:2rem;
+      strong{
+        font-size:4rem;
+      }
+    }
   }
 `
 export const MyTexts = styled.div`

@@ -1,5 +1,5 @@
-import {AboutWrap, CareerLi, CareerList, Figure, MyTexts, SkillItemUl, SnsLinks} from "./About.style"
-import { SkillItemList } from "./SkillItemsList"
+import {AboutWrap, CareerLi, CareerList, Bgfixed, CounterStyle, Figure, MyTexts, SkillItemUl, SnsLinks} from "./About.style"
+import { SkillItemList } from "./components/SkillItemsList"
 import { gsap } from "gsap";
 import { useEffect } from "react";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -9,6 +9,11 @@ import vueIco from '../images/ico_vue.png';
 import reactIco from '../images/logo.svg';
 import profile from '../images/profile.jpg';
 import AboutSection from "./AboutSection";
+import Counter from "./components/Counter";
+import { CiHeart } from "react-icons/ci";
+import { FiTool } from "react-icons/fi";
+import { LuBadgePercent } from "react-icons/lu";
+import { FaLaptopCode } from "react-icons/fa6";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -162,6 +167,14 @@ export const About = () => {
                 <SkillItemList skill={"웹접근성"} desc={"모두 접근 가능한 접근성"}></SkillItemList>	
               </SkillItemUl>
             </AboutSection>
+            <Bgfixed>
+              <CounterStyle  data-aos="zoom-in">
+                <Counter num={12} type="year" txt="경력" icon={<CiHeart />}/>
+                <Counter num={29} type="number" txt="projects" icon={<FaLaptopCode />} /> 
+                <Counter num={100} type="percent" txt="완성률" icon={<LuBadgePercent  />} />
+                <Counter num={20} type="number" txt="보유 스킬" icon={<FiTool />} />
+              </CounterStyle>
+            </Bgfixed>
             <AboutSection className="right section2" secTitle="Career">
                 <CareerList>
                   <CareerLi className="free">
