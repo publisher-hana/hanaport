@@ -421,4 +421,15 @@ export const SnsLinks = styled.div`
             border-left: 8px solid transparent; border-right: 8px solid transparent;
         }
     }
+    @media screen and (max-width: ${MediaWidth.tablet}) {
+      a{
+        width:40px !important;
+        &.myreact{
+          width:56px !important;
+        }
+        img{
+          max-width:100%;
+        }
+      }
+    }
 `

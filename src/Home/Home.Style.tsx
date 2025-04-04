@@ -89,10 +89,13 @@ export const ToMain = styled.div`
       }
     }
     @media screen and (max-width: ${MediaWidth.tablet}) {
-        margin-left:40px;
-        .txt{
-            ${size.ft16}
-        }
+      margin-left:40px;
+      .txt{
+          ${size.ft16}
+      }
+      .skills{
+        font-size:2rem;
+      }
     }
 `
 
