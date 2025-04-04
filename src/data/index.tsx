@@ -24,7 +24,7 @@ const portData = [
         link:"//lhn1208.github.io/react_vetter/",
         device:"pc",
         skill:"React & Emotion",
-        date: "2022.05~2022.07",
+        date: "2022.05~2022.08",
         pc_img: require("../images/work/pc_vet.png"),
         alt: "베터빌 PC 이미지"
     },
@@ -33,7 +33,7 @@ const portData = [
       link:"//lhn1208.github.io/react_remembered/",
       device:"responsive",
       skill:"React & Style Component",
-      date: "2022.01~2022.03",
+      date: "2022.01~2022.04",
       pc_img: require("../images/work/pc_remembered.png"),
       mb_img: require("../images/work/mb_remembered.png"),
       alt: "온라인 추모관 이미지"
