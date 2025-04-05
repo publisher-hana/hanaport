@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hanaport/static/css/main.c8307cff.css",
-    "main.js": "/hanaport/static/js/main.feaa8ecf.js",
+    "main.js": "/hanaport/static/js/main.4d3ea3b5.js",
     "static/media/travel.png": "/hanaport/static/media/travel.d5350bf0f18cae3d4b29.png",
     "static/media/doctor.png": "/hanaport/static/media/doctor.13a4cf4c81a2651074dc.png",
     "static/media/bank_bottom.png": "/hanaport/static/media/bank_bottom.aaed71f8ea1dbdf023da.png",
@@ -19,6 +19,7 @@
     "static/media/study_vue.jpg": "/hanaport/static/media/study_vue.e15797012b51859d43f6.jpg",
     "static/media/pc_hidoc.png": "/hanaport/static/media/pc_hidoc.a23803468c4f68ee0175.png",
     "static/media/pc_mode_main.png": "/hanaport/static/media/pc_mode_main.335fffae46ecc21dcae1.png",
+    "static/media/pc_drville.png": "/hanaport/static/media/pc_drville.fa4b22de1c4145d58a7e.png",
     "static/media/pc_mode_tourplanner.png": "/hanaport/static/media/pc_mode_tourplanner.4fe9742517de3d69c0e8.png",
     "static/media/pc_mode_hotel.png": "/hanaport/static/media/pc_mode_hotel.fdd1451056088f53c310.png",
     "static/media/pc_mode_air.png": "/hanaport/static/media/pc_mode_air.629f8461d742c9dc50c3.png",
@@ -57,10 +58,10 @@
     "static/media/logo.svg": "/hanaport/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/hanaport/index.html",
     "main.c8307cff.css.map": "/hanaport/static/css/main.c8307cff.css.map",
-    "main.feaa8ecf.js.map": "/hanaport/static/js/main.feaa8ecf.js.map"
+    "main.4d3ea3b5.js.map": "/hanaport/static/js/main.4d3ea3b5.js.map"
   },
   "entrypoints": [
     "static/css/main.c8307cff.css",
-    "static/js/main.feaa8ecf.js"
+    "static/js/main.4d3ea3b5.js"
   ]
 }

@@ -84,7 +84,7 @@ const portData = [
         device:"pc",
         skill:"HTML5 & CSS3 & jQuery",
         date: "2022.12~2023.02",
-        pc_img: require("../images/work/pc_conferenceville.png"),
+        pc_img: require("../images/work/pc_drville.png"),
         alt: "닥터빌 PC 이미지"
     },
     {
