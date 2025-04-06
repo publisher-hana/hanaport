@@ -100,20 +100,20 @@ const portData = [
         title:"[컨퍼런스빌] 의료 컨퍼런스",
         link:"//lhn1208.github.io/myport/demo/ids/drville/web/html/webinar/guide.html",
         device:"pc",
-        skill:"HTML5 & CSS3 & jQuery",
-        date: "2022.12~2023.02",
+        skill:"REACT & HTML5 & SASS",
+        date: "2022.08~2023.02",
         pc_img: require("../images/work/pc_conferenceville.png"),
         alt: "컨퍼런스빌 PC 이미지"
     },
-    {
-        title:"[컨퍼런스빌] 의료 컨퍼런스",
-        link:"//lhn1208.github.io/myport/demo/ids/drville/mobile/html/webinar/guide.html",
-        device:"mobile",
-        skill:"HTML5 & CSS3 & jQuery",
-        date: "2022.12~2023.02",
-        only_mb_img: require("../images/work/mb_conferenceville.png"),
-        alt: "컨퍼런스빌 모바일 이미지"
-    },
+    // {
+    //     title:"[컨퍼런스빌] 의료 컨퍼런스",
+    //     link:"//lhn1208.github.io/myport/demo/ids/drville/mobile/html/webinar/guide.html",
+    //     device:"mobile",
+    //     skill:"HTML5 & CSS3 & jQuery",
+    //     date: "2022.12~2023.02",
+    //     only_mb_img: require("../images/work/mb_conferenceville.png"),
+    //     alt: "컨퍼런스빌 모바일 이미지"
+    // },
     {
       title:"[더샵몰] 약사들의 약국몰",
       link:"//lhn1208.github.io/myport/demo/ids/shop/mobile/html/main/main.html",
