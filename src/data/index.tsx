@@ -63,7 +63,7 @@ const portData = [
           link:"//publisher-hana.github.io/confer-vill-app/",
           device:"mobile",
           skill:"REACT & HTML5 & SASS",
-          date: "2022.12~2023.02",
+          date: "2022.08~2023.02",
           only_mb_img: require("../images/work/mb_conferenceville.png"),
           alt: "컨퍼런스빌 모바일 이미지"
       },
