@@ -72,7 +72,7 @@ const portData = [
         link:"//lhn1208.github.io/myport/demo/ids/shop/renewal/html/guide.html",
         device:"pc",
         skill:"HTML5 & CSS3 & jQuery & Javascript",
-        date: "2022.12~2023.02",
+        date: "2021.12~2023.02",
         pc_img: require("../images/work/pc_theshop1.png"),
         alt: "더샵몰 이미지"
     },
@@ -81,7 +81,7 @@ const portData = [
         link:"//www.hidoc.co.kr/",
         device:"Pc/Mobile",
         skill:"HTML5 & CSS3 & jQuery",
-        date: "2022.12~2023.02",
+        date: "2021.12~2023.02",
         pc_img: require("../images/work/pc_hidoc.png"),
         mb_img: require("../images/work/mb_hidoc.png"),
         alt: "하이닥 이미지"
@@ -91,7 +91,7 @@ const portData = [
         link:"//lhn1208.github.io/myport/demo/ids/hidoc/pro/html/main/main.html",
         device:"pc",
         skill:"HTML5 & CSS3 & jQuery",
-        date: "2022.12~2023.02",
+        date: "2021.12~2023.02",
         pc_img: require("../images/work/pc_hidoc_pro.png"),
         alt: "하이닥 프로 이미지"
     },
@@ -100,7 +100,7 @@ const portData = [
         link:"//lhn1208.github.io/myport/demo/ids/drville/web/html/guide.html",
         device:"pc",
         skill:"HTML5 & CSS3 & jQuery",
-        date: "2022.12~2023.02",
+        date: "2021.12~2023.02",
         pc_img: require("../images/work/pc_drville.png"),
         alt: "닥터빌 PC 이미지"
     },
@@ -109,7 +109,7 @@ const portData = [
         link:"//lhn1208.github.io/myport/demo/ids/drville/mobile/html/guide.html",
         device:"mobile",
         skill:"HTML5 & CSS3 & jQuery",
-        date: "2022.12~2023.02",
+        date: "2021.12~2023.02",
         only_mb_img: require("../images/work/mb_drville.png"),
         alt: "닥터빌 모바일 이미지"
     },
@@ -118,7 +118,7 @@ const portData = [
       link:"//lhn1208.github.io/myport/demo/ids/shop/mobile/html/main/main.html",
       device:"mobile",
       skill:"HTML5 & CSS3 & jQuery",
-      date: "2022.12~2023.02",
+      date: "2021.12~2023.02",
       only_mb_img: require("../images/work/mb_theshop.png"),
       alt: "더샵몰 모바일 이미지"
   },
@@ -126,7 +126,7 @@ const portData = [
     title:"매물사이트 퍼블리싱",
     link:"//lhn1208.github.io/vue_realhome",
     device:"pc",  
-    skill:"VUE.js & HTML5 & CSS3",
+    skill:"HTML5 & CSS3 & jQuery",
     date: "",
     pc_img: require("../images/work/pc_house.png"),
     alt: "매물사이트 PC 이미지"
@@ -135,7 +135,7 @@ const portData = [
     title:"매물사이트 퍼블리싱",
     link:"//lhn1208.github.io/vue_realhome_mb/",
     device:"mobile",
-    skill:"VUE.js & HTML5 & CSS3",
+    skill:"HTML5 & CSS3 & jQuery",
     date: "",
     only_mb_img: require("../images/work/mb_house.png"),
     alt: "매물사이트 모바일 이미지"

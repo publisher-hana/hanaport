@@ -53,7 +53,7 @@ export const Home = () => {
                     <span className="txt">Go to Main</span>
                     <span className="line1"></span><span className="line2"></span><span className="line3"></span><span className="line4"></span>
                 </Link>
-                <span className="desc" data-aos="fade-left">Made with React</span>
+                <span className="desc" data-aos="fade-left">Made with React & Typescript</span>
                 <div className="skills" data-aos="fade-up">
                   <span><FaHtml5 /></span>
                   <span><FaCss3Alt /></span>
