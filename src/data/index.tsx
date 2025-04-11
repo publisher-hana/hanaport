@@ -49,24 +49,24 @@ const portData = [
     //     mb_img:  require("../images/work/mb_sunbest.png"),
     //     alt: "선베스트 이미지"
     // },
-      //   {
-      //     title:"[컨퍼런스빌] 의료 컨퍼런스",
-      //     link:"//publisher-hana.github.io/confer-vill/",
-      //     device:"pc",
-      //     skill:"REACT & HTML5 & SASS",
-      //     date: "2022.08~2023.02",
-      //     pc_img: require("../images/work/pc_conferenceville.png"),
-      //     alt: "컨퍼런스빌 PC 이미지"
-      // },
-      // {
-      //     title:"[컨퍼런스빌] 의료 컨퍼런스",
-      //     link:"//publisher-hana.github.io/confer-vill-app/",
-      //     device:"mobile",
-      //     skill:"REACT & HTML5 & SASS",
-      //     date: "2022.08~2023.02",
-      //     only_mb_img: require("../images/work/mb_conferenceville.png"),
-      //     alt: "컨퍼런스빌 모바일 이미지"
-      // },
+        {
+          title:"[컨퍼런스빌] 의료 컨퍼런스",
+          link:"//publisher-hana.github.io/confer-vill/",
+          device:"pc",
+          skill:"REACT & HTML5 & SASS",
+          date: "2022.08~2023.02",
+          pc_img: require("../images/work/pc_conferenceville.png"),
+          alt: "컨퍼런스빌 PC 이미지"
+      },
+      {
+          title:"[컨퍼런스빌] 의료 컨퍼런스",
+          link:"//publisher-hana.github.io/confer-vill-app/",
+          device:"mobile",
+          skill:"REACT & HTML5 & SASS",
+          date: "2022.08~2023.02",
+          only_mb_img: require("../images/work/mb_conferenceville.png"),
+          alt: "컨퍼런스빌 모바일 이미지"
+      },
       {
         title:"[더샵몰] 약사들의 약국몰",
         link:"//lhn1208.github.io/myport/demo/ids/shop/renewal/html/guide.html",
@@ -122,24 +122,24 @@ const portData = [
       only_mb_img: require("../images/work/mb_theshop.png"),
       alt: "더샵몰 모바일 이미지"
   },
-  {
-    title:"매물사이트 퍼블리싱",
-    link:"//lhn1208.github.io/vue_realhome",
-    device:"pc",  
-    skill:"HTML5 & CSS3 & jQuery",
-    date: "",
-    pc_img: require("../images/work/pc_house.png"),
-    alt: "매물사이트 PC 이미지"
-},
-{
-    title:"매물사이트 퍼블리싱",
-    link:"//lhn1208.github.io/vue_realhome_mb/",
-    device:"mobile",
-    skill:"HTML5 & CSS3 & jQuery",
-    date: "",
-    only_mb_img: require("../images/work/mb_house.png"),
-    alt: "매물사이트 모바일 이미지"
-},
+//   {
+//     title:"매물사이트 퍼블리싱",
+//     link:"//lhn1208.github.io/vue_realhome",
+//     device:"pc",  
+//     skill:"HTML5 & CSS3 & jQuery",
+//     date: "",
+//     pc_img: require("../images/work/pc_house.png"),
+//     alt: "매물사이트 PC 이미지"
+// },
+// {
+//     title:"매물사이트 퍼블리싱",
+//     link:"//lhn1208.github.io/vue_realhome_mb/",
+//     device:"mobile",
+//     skill:"HTML5 & CSS3 & jQuery",
+//     date: "",
+//     only_mb_img: require("../images/work/mb_house.png"),
+//     alt: "매물사이트 모바일 이미지"
+// },
     {
         title:"[모두투어] 퍼블리싱",
         link:"//www.modetour.com/main/default.aspx",
