@@ -122,24 +122,24 @@ const portData = [
       only_mb_img: require("../images/work/mb_theshop.png"),
       alt: "더샵몰 모바일 이미지"
   },
-//   {
-//     title:"매물사이트 퍼블리싱",
-//     link:"//lhn1208.github.io/vue_realhome",
-//     device:"pc",  
-//     skill:"HTML5 & CSS3 & jQuery",
-//     date: "",
-//     pc_img: require("../images/work/pc_house.png"),
-//     alt: "매물사이트 PC 이미지"
-// },
-// {
-//     title:"매물사이트 퍼블리싱",
-//     link:"//lhn1208.github.io/vue_realhome_mb/",
-//     device:"mobile",
-//     skill:"HTML5 & CSS3 & jQuery",
-//     date: "",
-//     only_mb_img: require("../images/work/mb_house.png"),
-//     alt: "매물사이트 모바일 이미지"
-// },
+  {
+    title:"매물사이트 퍼블리싱",
+    link:"//lhn1208.github.io/vue_realhome",
+    device:"pc",  
+    skill:"HTML5 & CSS3 & jQuery",
+    date: "",
+    pc_img: require("../images/work/pc_house.png"),
+    alt: "매물사이트 PC 이미지"
+},
+{
+    title:"매물사이트 퍼블리싱",
+    link:"//lhn1208.github.io/vue_realhome_mb/",
+    device:"mobile",
+    skill:"HTML5 & CSS3 & jQuery",
+    date: "",
+    only_mb_img: require("../images/work/mb_house.png"),
+    alt: "매물사이트 모바일 이미지"
+},
     {
         title:"[모두투어] 퍼블리싱",
         link:"//www.modetour.com/main/default.aspx",
