@@ -32,6 +32,15 @@ const Study = ()  =>{
               </a>
             </li>
             <li data-aos="flip-left">
+              <a href='https://publisher-hana.github.io/food-react/' target='_blank' rel="noopener noreferrer">
+                <figure className='img'><img src={fasatEat} alt='' /></figure>
+                <dl>
+                  <dt>Fast Eat</dt>
+                  <dd>React & Sass & API</dd>
+                </dl>
+              </a>
+            </li>
+            <li data-aos="flip-left">
               <a href='https://publisher-hana.github.io/vue-vet-app/' target='_blank' rel="noopener noreferrer">
                 <figure className='img'><img src={vet} alt='' /></figure>
                 <dl>
