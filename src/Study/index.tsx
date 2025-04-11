@@ -27,7 +27,7 @@ const Study = ()  =>{
                 <figure className='img'><img src={fasatEat} alt='' /></figure>
                 <dl>
                   <dt>Fast Eat</dt>
-                  <dd>Vue3.js & Sass</dd>
+                  <dd>Vue3.js & Sass & API</dd>
                 </dl>
               </a>
             </li>
