@@ -18,7 +18,7 @@ const Study = ()  =>{
                 <figure className='img'><img src={ciya} alt='' /></figure>
                 <dl>
                   <dt>Trip WebSite [Responsive]</dt>
-                  <dd>React & Tailwind</dd>
+                  <dd>React & Typescript & Tailwind</dd>
                 </dl>
               </a>
             </li>
