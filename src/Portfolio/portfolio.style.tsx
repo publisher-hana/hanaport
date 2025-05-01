@@ -52,6 +52,7 @@ export const PortItemsStyle = styled.ul`
     li{
         position:relative;
         ${Transition.width}
+        text-align:center;
     }
     a{
         display:block;
@@ -147,5 +148,13 @@ export const Progress = styled.div`
         background:var(--primary-color);
         ${Transition.sec3}
     }
+`
+
+export const PortButton = styled.button`
+  margin-top:10px;
+  padding:10px 14px;
+  border-radius:5px;
+  background:var(--primary-color);
+  color:#fff;
 `
 ;

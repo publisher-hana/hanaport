@@ -23,10 +23,11 @@ const portData = [
         title:"[베터빌] 수의사 커뮤니티",
         link:"//lhn1208.github.io/react_vetter/",
         device:"pc",
-        skill:"React & Emotion",
+        skill:"TypeScript & React & Emotion",
         date: "2022.05~2022.08",
         pc_img: require("../images/work/pc_vet.png"),
-        alt: "베터빌 PC 이미지"
+        alt: "베터빌 PC 이미지",
+        pr_intro:"https://www.notion.so/1e632e8edf1a819b9939f6ad32c89313?pvs=4"
     },
     {
       title:"온라인 추모관",
@@ -36,7 +37,8 @@ const portData = [
       date: "2022.01~2022.04",
       pc_img: require("../images/work/pc_remembered.png"),
       mb_img: require("../images/work/mb_remembered.png"),
-      alt: "온라인 추모관 이미지"
+      alt: "온라인 추모관 이미지",
+      pr_intro:"https://www.notion.so/1e632e8edf1a805d8a0aece8f2b42638?pvs=4"
     },
     // {
     //     title:"[인테리어] 사이트 메인 작업",
@@ -53,7 +55,7 @@ const portData = [
           title:"[컨퍼런스빌] 의료 컨퍼런스",
           link:"//publisher-hana.github.io/confer-vill/",
           device:"pc",
-          skill:"REACT & HTML5 & SASS",
+          skill:"React & HTML5 & SASS",
           date: "2022.08~2023.02",
           pc_img: require("../images/work/pc_conferenceville.png"),
           alt: "컨퍼런스빌 PC 이미지"
@@ -62,7 +64,7 @@ const portData = [
           title:"[컨퍼런스빌] 의료 컨퍼런스",
           link:"//publisher-hana.github.io/confer-vill-app/",
           device:"mobile",
-          skill:"REACT & HTML5 & SASS",
+          skill:"React & HTML5 & SASS",
           date: "2022.08~2023.02",
           only_mb_img: require("../images/work/mb_conferenceville.png"),
           alt: "컨퍼런스빌 모바일 이미지"

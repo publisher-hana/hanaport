@@ -1,5 +1,5 @@
 import portData from 'data/index';
-import { PortInfo, PortFigure, PortItemsStyle } from './portfolio.style';
+import { PortInfo, PortFigure, PortItemsStyle, PortButton } from './portfolio.style';
 
 export default function PortItems({ activeFilter }: { activeFilter: string }) {
     // activeFilter에 따라 포트폴리오 항목을 필터링
@@ -42,6 +42,17 @@ export default function PortItems({ activeFilter }: { activeFilter: string }) {
                           </ul>
                       </PortInfo>
                     </a>
+                    {item.pr_intro && (
+                      <PortButton
+                        onClick={() => {
+                            if (item.pr_intro) {
+                              window.open(item.pr_intro, "_blank"); // 새 탭에서 열기
+                            }
+                          }}
+                        >
+                          프로젝트 소개
+                      </PortButton>
+                    )}
                 </li>
             ))}
         </PortItemsStyle>
