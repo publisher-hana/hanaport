@@ -27,7 +27,7 @@ const portData = [
         date: "2022.05~2022.08",
         pc_img: require("../images/work/pc_vet.png"),
         alt: "베터빌 PC 이미지",
-        pr_intro:"https://www.notion.so/1e632e8edf1a819b9939f6ad32c89313?pvs=4"
+        pr_intro:"https://www.notion.so/20732e8edf1a80d199c0cd9b18bf1066?source=copy_link"
     },
     {
       title:"온라인 추모관",
