@@ -20,11 +20,21 @@ const portData = [
       alt: "형사사법포털 이미지"
     },
     {
+        title:"[팜빌] 약사 커뮤니티",
+        link:"//publisher-hana.github.io/pharm-app/",
+        device:"pc",
+        skill:"TypeScript & React & Emotion",
+        date: "2022.11~2023.02",
+        pc_img: require("../images/work/pc_pharm.png"),
+        alt: "팜빌 PC 이미지",
+        pr_intro:"https://www.notion.so/21d32e8edf1a80a99a37f40e9484c8ef?source=copy_link"
+    },
+    {
         title:"[베터빌] 수의사 커뮤니티",
         link:"//lhn1208.github.io/react_vetter/",
         device:"pc",
         skill:"TypeScript & React & Emotion",
-        date: "2022.05~2022.08",
+        date: "2022.08~2022.10",
         pc_img: require("../images/work/pc_vet.png"),
         alt: "베터빌 PC 이미지",
         pr_intro:"https://www.notion.so/20732e8edf1a80d199c0cd9b18bf1066?source=copy_link"
@@ -34,12 +44,30 @@ const portData = [
       link:"//lhn1208.github.io/react_remembered/",
       device:"responsive",
       skill:"React & Style Component",
-      date: "2022.01~2022.04",
+      date: "2022.04~2022.08",
       pc_img: require("../images/work/pc_remembered.png"),
       mb_img: require("../images/work/mb_remembered.png"),
       alt: "온라인 추모관 이미지",
       pr_intro:"https://www.notion.so/1e632e8edf1a805d8a0aece8f2b42638?pvs=4"
     },
+    {
+          title:"[컨퍼런스빌] 의료 컨퍼런스",
+          link:"//publisher-hana.github.io/confer-vill/",
+          device:"pc",
+          skill:"React & HTML5 & SASS",
+          date: "2022.01~2023.02",
+          pc_img: require("../images/work/pc_conferenceville.png"),
+          alt: "컨퍼런스빌 PC 이미지"
+      },
+      {
+          title:"[컨퍼런스빌] 의료 컨퍼런스",
+          link:"//publisher-hana.github.io/confer-vill-app/",
+          device:"mobile",
+          skill:"React & HTML5 & SASS",
+          date: "2022.04~2023.02",
+          only_mb_img: require("../images/work/mb_conferenceville.png"),
+          alt: "컨퍼런스빌 모바일 이미지"
+      },
     // {
     //     title:"[인테리어] 사이트 메인 작업",
     //     link:"//lhn1208.github.io/myport/demo/sunbest/html/main.html",
@@ -51,24 +79,6 @@ const portData = [
     //     mb_img:  require("../images/work/mb_sunbest.png"),
     //     alt: "선베스트 이미지"
     // },
-        {
-          title:"[컨퍼런스빌] 의료 컨퍼런스",
-          link:"//publisher-hana.github.io/confer-vill/",
-          device:"pc",
-          skill:"React & HTML5 & SASS",
-          date: "2022.08~2023.02",
-          pc_img: require("../images/work/pc_conferenceville.png"),
-          alt: "컨퍼런스빌 PC 이미지"
-      },
-      {
-          title:"[컨퍼런스빌] 의료 컨퍼런스",
-          link:"//publisher-hana.github.io/confer-vill-app/",
-          device:"mobile",
-          skill:"React & HTML5 & SASS",
-          date: "2022.08~2023.02",
-          only_mb_img: require("../images/work/mb_conferenceville.png"),
-          alt: "컨퍼런스빌 모바일 이미지"
-      },
       {
         title:"[더샵몰] 약사들의 약국몰",
         link:"//lhn1208.github.io/myport/demo/ids/shop/renewal/html/guide.html",
