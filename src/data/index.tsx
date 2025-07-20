@@ -20,6 +20,15 @@ const portData = [
       alt: "형사사법포털 이미지"
     },
     {
+      title:"[매물사이트] 사용자 및 중개사 관리자",
+      link:"//publisher-hana.github.io/realhouse-pc/",
+      device:"pc",  
+      skill:"React & HTML5 & CSS3",
+      date: "2023.01~2023.08",
+      pc_img: require("../images/work/pc_realhouse2.png"),
+      alt: "매물사이트 PC 이미지"
+  },
+    {
         title:"[팜빌] 약사 커뮤니티",
         link:"//publisher-hana.github.io/pharm-app/",
         device:"pc",
@@ -64,7 +73,7 @@ const portData = [
           link:"//publisher-hana.github.io/confer-vill-app/",
           device:"mobile",
           skill:"React & HTML5 & SASS",
-          date: "2022.04~2023.02",
+          date: "2022.01~2023.02",
           only_mb_img: require("../images/work/mb_conferenceville.png"),
           alt: "컨퍼런스빌 모바일 이미지"
       },
@@ -134,24 +143,15 @@ const portData = [
       only_mb_img: require("../images/work/mb_theshop.png"),
       alt: "더샵몰 모바일 이미지"
   },
-  {
-    title:"매물사이트 퍼블리싱",
-    link:"//lhn1208.github.io/vue_realhome",
-    device:"pc",  
-    skill:"HTML5 & CSS3 & jQuery",
-    date: "",
-    pc_img: require("../images/work/pc_house.png"),
-    alt: "매물사이트 PC 이미지"
-},
-{
-    title:"매물사이트 퍼블리싱",
-    link:"//lhn1208.github.io/vue_realhome_mb/",
-    device:"mobile",
-    skill:"HTML5 & CSS3 & jQuery",
-    date: "",
-    only_mb_img: require("../images/work/mb_house.png"),
-    alt: "매물사이트 모바일 이미지"
-},
+// {
+//     title:"매물사이트 퍼블리싱",
+//     link:"//lhn1208.github.io/vue_realhome_mb/",
+//     device:"mobile",
+//     skill:"HTML5 & CSS3 & jQuery",
+//     date: "",
+//     only_mb_img: require("../images/work/mb_house.png"),
+//     alt: "매물사이트 모바일 이미지"
+// },
     {
         title:"[모두투어] 퍼블리싱",
         link:"//www.modetour.com/main/default.aspx",
