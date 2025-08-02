@@ -20,6 +20,15 @@ const portData = [
       alt: "형사사법포털 이미지"
     },
     {
+        title:"[매물사이트] 사용자 및 중개사 관리자",
+        link:"//publisher-hana.github.io/realhouse-mb/",
+        device:"mobile",  
+        skill:"React & HTML5 & CSS3",
+        date: "2023.06~2023.10",
+        pc_img: require("../images/work/mb_realhouse2.png"),
+        alt: "매물사이트 모바일 이미지"
+    },
+    {
       title:"[매물사이트] 사용자 및 중개사 관리자",
       link:"//publisher-hana.github.io/realhouse-pc/",
       device:"pc",  
@@ -27,7 +36,7 @@ const portData = [
       date: "2023.01~2023.08",
       pc_img: require("../images/work/pc_realhouse2.png"),
       alt: "매물사이트 PC 이미지"
-  },
+    },
     {
         title:"[팜빌] 약사 커뮤니티",
         link:"//publisher-hana.github.io/pharm-app/",
