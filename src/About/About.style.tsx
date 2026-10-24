@@ -111,7 +111,7 @@ export const SkillItemUl  = styled.ul`
   flex-wrap:wrap;
 `
 export const SkillItem =styled.li`
-  width:25%; 
+  width:20%; 
   height: 21rem; 
   padding-bottom: var(--content-pd); 
   cursor: pointer; 

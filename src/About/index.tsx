@@ -161,6 +161,7 @@ export const About = () => {
           <div className="section_wrap">
             <AboutSection className="major_skills" secTitle="주요 기술">
               <SkillItemUl>  
+                <SkillItemList skill={"React"} desc={"UI 컴포넌트 설계"}></SkillItemList>
                 <SkillItemList skill={"HTML5/CSS3/SASS"} desc={"W3C에 준수하는 웹표준"}></SkillItemList>	
                 <SkillItemList skill={"Jquery/Javascript"} desc={"스크립트 동작 구현"}></SkillItemList>	
                 <SkillItemList skill={"반응형웹"} desc={"전 기기 반응하는 반응형"}></SkillItemList>	
@@ -169,8 +170,8 @@ export const About = () => {
             </AboutSection>
             <Bgfixed>
               <CounterStyle  data-aos="zoom-in">
-                <Counter num={12} type="year" txt="경력" icon={<CiHeart />}/>
-                <Counter num={29} type="number" txt="projects" icon={<FaLaptopCode />} /> 
+                <Counter num={14} type="year" txt="경력" icon={<CiHeart />}/>
+                <Counter num={30} type="number" txt="projects" icon={<FaLaptopCode />} /> 
                 <Counter num={100} type="percent" txt="완성률" icon={<LuBadgePercent  />} />
                 <Counter num={20} type="number" txt="보유 스킬" icon={<FiTool />} />
               </CounterStyle>
