@@ -4,6 +4,7 @@ import vue from '../images/study_vue.jpg'
 import gsapImg from '../images/study_gsap.jpg'
 import fasatEat from  '../images/study_fast_eat.jpg'
 import ciya from  '../images/ciyatrip.jpg'
+import study from  '../images/pop-study.png'
 import { Section, SecTittle } from "styles/common.style"
 
 const Study = ()  =>{
@@ -13,6 +14,15 @@ const Study = ()  =>{
         <Section>
           <SecTittle white data-aos="zoom-out-down">My Study</SecTittle>
           <MyStudyUl className="study-list">
+            <li data-aos="flip-left">
+              <a href='https://publisher-hana.github.io/pop-study/' target='_blank' rel="noopener noreferrer">
+                <figure className='img'><img src={study} alt='' /></figure>
+                <dl>
+                  <dt>Popsong Study [Responsive]</dt>
+                  <dd>React</dd>
+                </dl>
+              </a>
+            </li>
             <li data-aos="flip-left">
               <a href='https://publisher-hana.github.io/ciyatrip/' target='_blank' rel="noopener noreferrer">
                 <figure className='img'><img src={ciya} alt='' /></figure>

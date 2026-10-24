@@ -32,6 +32,7 @@ const MyStudy = () => {
            
           }}
         >
+          
         <SwiperSlide>
             <Box href='https://publisher-hana.github.io/ciyatrip/' target='_blank'>
               <span className='img'><img src={ciya} alt='' /></span>
